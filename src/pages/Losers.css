@@ -1,0 +1,82 @@
+
+.losers-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.losers-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #dc2626;
+}
+
+.losers-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.losers-table th,
+.losers-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.losers-table th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+.losers-table tr:hover {
+  background-color: #f1f5f9;
+  cursor: pointer;
+}
+
+.coin-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coin-info img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.negative {
+  color: #dc2626; /* red */
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .losers-table thead {
+    display: none;
+  }
+
+  .losers-table tr {
+    display: block;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .losers-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+
+  .coin-info {
+    flex-direction: row;
+  }
+}

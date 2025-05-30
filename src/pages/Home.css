@@ -1,0 +1,109 @@
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #007BFF;
+}
+
+.coin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px; /* Ensured enough gap between grid items */
+  justify-items: center;
+  margin-bottom: 20px; /* Added margin to ensure no items are at the very bottom of the container */
+}
+
+.coin-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coin-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+.coin-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.coin-info {
+  text-align: center;
+}
+
+.coin-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.coin-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.coin-info .positive {
+  color: #16a34a;
+}
+
+.coin-info .negative {
+  color: #dc2626;
+}
+
+.more-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.more-btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.more-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 1.5rem;
+  }
+  .coin-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .coin-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .coin-info h3 {
+    font-size: 1rem;
+  }
+}

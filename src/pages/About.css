@@ -1,0 +1,131 @@
+.about-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #555;
+  text-align: justify;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tech-item {
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.tech-item:hover {
+  transform: translateY(-5px);
+}
+
+.tech-icon-box {
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  padding: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tech-icon-box:hover {
+  background-color: #e0f2fe;
+  transform: scale(1.05);
+}
+
+.tech-item p {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+
+.feature-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.creator-name {
+  font-weight: bold;
+  color: #007BFF;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.portfolio-link {
+  font-weight: bold;
+  color: #FF6600;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-description {
+    font-size: 1rem;
+  }
+  .tech-item p {
+    font-size: 0.9rem;
+  }
+  .feature-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}

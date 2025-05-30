@@ -1,0 +1,29 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f3f4f6; /* light gray */
+    color: #4b5563; /* gray-700 */
+    padding: 24px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .footer-brand {
+    color: #2563eb; /* blue-600 */
+    font-weight: 600;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .footer {
+      background-color: #1f2937; /* gray-800 */
+      color: #9ca3af; /* gray-400 */
+    }
+  
+    .footer-brand {
+      color: #3b82f6; /* blue-500 */
+    }
+  }
+  
