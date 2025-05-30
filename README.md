@@ -1,12 +1,28 @@
-# React + Vite
+# 🚀 CryptoPulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CryptoPulse** is a modern, responsive cryptocurrency tracking web app built with React.js. It fetches real-time data from CoinGecko's public API and presents key market insights including top cryptocurrencies, gainers, losers, and detailed coin stats — all with a clean UI.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📊 View the **Top 50 Cryptocurrencies** by market cap
+- 📈 See **Top Gainers** and 📉 **Top Losers** based on 24h % change
+- 🔍 **Search and sort** across all coins
+- 📄 Navigate to **individual coin detail pages** with charts and stats
+- 📱 **Fully responsive** design (mobile-friendly)
+- ⚡ Built using **React Hooks**, **React Router**, and **custom CSS**
+
+---
+
+## 💻 Technologies Used
+
+| Technology | Description |
+|------------|-------------|
+| ⚛️ React.js | Frontend framework |
+| 🎨 CSS3     | Styling |
+| 📈 Chart.js | Coin charts |
+| 🌐 CoinGecko API | Real-time crypto data |
+
+---
